@@ -1,11 +1,22 @@
 {
   "name": "electron_http_cliant",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "ElectronベースのGUIのHTTPクライアント",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "yusukemisa",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusukemisa/electron_http_cliant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yusukemisa/electron_http_cliant/issues"
+  },
+  "homepage": "https://github.com/yusukemisa/electron_http_cliant#readme",
+  "devDependencies": {
+    "electron": "^1.6.1"
+  }
 }
